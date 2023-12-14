@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* About section styles */
+  .about-me {
+    padding: 50px 20px;
+  }
+  
+  /* Projects section styles */
+  .projects {
+    padding: 50px 20px;
+  }
+  
+  .project-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact section styles */
+  .contact {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+  }
+  
+  .contact form input,
+  .contact form textarea,
+  .contact form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .contact form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  h1{
+    color: rgb(51, 7, 127);
+    font-size: 60px;
+    font-family: Libre Baskerville;
+  }
+  .img{
+    height: 20px;
+    width: 20px;
+  }
